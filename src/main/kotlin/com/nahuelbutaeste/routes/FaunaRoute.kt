@@ -11,7 +11,7 @@ private const val baseUrl = "http://localhost:8100"
 
 private val fauna = listOf(
     Fauna(
-        "Austrochilus",
+        1,"Austrochilus",
         "Austrochilus parwis Michalik &amp; Wunderlich, 2017",
         "No Evaluado (NE)",
         "Animalia",
@@ -25,7 +25,7 @@ private val fauna = listOf(
 
         ),
     Fauna(
-        "Puma concolor",
+        2,"Puma concolor",
         "Felis concolor Linnaeus, 1771",
         "Casi amenazada (NT)",
         "Animalia",
@@ -39,7 +39,7 @@ private val fauna = listOf(
 
     ),
     Fauna(
-        "Buteo(Busardo patagón)",
+        3,"Buteo(Busardo patagón)",
         "Buteo ventralis Gould, 1837",
         "Vulnerable (VU)",
         "Animalia",
@@ -53,7 +53,7 @@ private val fauna = listOf(
 
     ),
     Fauna(
-        "Búho campestre",
+        4,"Búho campestre",
         "Asio flammeus (Pontoppidan, 1763)",
         "Preocupación menor (LC)",
         "Animalia",
@@ -67,7 +67,7 @@ private val fauna = listOf(
 
     ),
     Fauna(
-        "Abejorro",
+        5,"Abejorro",
         "Bombus dahlbomii Guérin-Méneville, 1835",
         "En peligro (EN)",
         "Animalia",
@@ -81,7 +81,7 @@ private val fauna = listOf(
 
     ),
     Fauna(
-        "Rana Narigona",
+        6,"Rana Narigona",
         "Rhinoderma darwinii Duméril & Bibron, 1841",
         "En peligro (EN)",
         "Animalia",
@@ -95,7 +95,7 @@ private val fauna = listOf(
 
     ),
     Fauna(
-        "Peorro",
+        7,"Peorro",
         "Ceroglossus chilensis (Eschscholtz, 1829",
         "No Evaluado (NE)",
         "Animalia",
@@ -109,7 +109,7 @@ private val fauna = listOf(
 
     ),
     Fauna(
-        "Pudú",
+        8,"Pudú",
         "Pudu puda (Molina, 1782)",
         "Vulnerable (VU)",
         "Animalia",

@@ -3,17 +3,17 @@ package com.nahuelbutaeste.data.model
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Fauna(
+data class Flora(
     val id: Int,
     val nombre: String,
     val nombreCientifico: String,
-    val categoria: String,
-    val reino: String,
-    val familia: String,
-    val especie: String,
-    val clase: String,
     val imagen: String,
+    val familia: String,
+    val reino: String,
     val cantidadEspecie: Int,
-    val sonido: String,
-    val descripcion: String
+    val uso: String,
+    val categoria: String,
+    val clasificacion: String,
+    val descripcion: String,
+    val origen: String
 )
